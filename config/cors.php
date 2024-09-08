@@ -20,13 +20,11 @@ return [
         'login',
         'logout',
         'register',
-//        'api/v1/*'
+    //    'api/v1/*'
         'api/*'
     ],
 
     'allowed_methods' => ['*'],
-
-//    'allowed_origins' => ['*'],
 
     'allowed_origins' => ['*'],
 

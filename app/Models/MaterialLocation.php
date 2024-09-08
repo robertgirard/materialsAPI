@@ -1,12 +1,12 @@
 <?php
 
-namespace App;
+namespace App\Models;
 
-use App\Models\Material;
-use App\Models\Location;
+//use App\Models\Material;
+//use App\Models\Location;
 use Illuminate\Notifications\Notifiable;
-use Illuminate\Foundation\Auth\User as Authenticatable;
-use Laravel\Passport\HasApiTokens;
+//use Illuminate\Foundation\Auth\User as Authenticatable;
+//use Laravel\Passport\HasApiTokens;
 use Illuminate\Database\Eloquent\Model;
 
 class MaterialLocation extends Model

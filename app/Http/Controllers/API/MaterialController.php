@@ -7,8 +7,8 @@ use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 //use Illuminate\Support\Facades\Auth;
 use App\Models\Material;
-use App\MaterialComponent;
-use App\MaterialLocation;
+use App\Models\MaterialComponent;
+use App\Models\MaterialLocation;
 use Illuminate\Support\Facades\DB;
 
 class MaterialController extends Controller
@@ -17,7 +17,7 @@ class MaterialController extends Controller
     public function __construct()
     {
 
-//         $this->middleware('auth:api');
+         $this->middleware('auth:sanctum');
  
     }
 

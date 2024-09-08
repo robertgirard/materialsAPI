@@ -20,7 +20,7 @@ return [
        env('CLIENT_URL'),
        'localhost:3000',
        'spa.materials.site:3000',
-       'spa.materials.site'
+       'spa.materials.site',
        ]
     ,
     
@@ -52,5 +52,7 @@ return [
         'verify_csrf_token' => App\Http\Middleware\VerifyCsrfToken::class,
         'encrypt_cookies' => App\Http\Middleware\EncryptCookies::class,
     ],
+
+    //'prefix' => 'api'
 
 ];
